@@ -1,0 +1,5 @@
+.fundofixo{
+    background: url("../img/imagem_fundo.jpg");
+    -webkit-background-size:cover;
+    background-size: cover;
+}
