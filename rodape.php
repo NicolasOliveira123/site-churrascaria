@@ -15,7 +15,7 @@
 
 <div class="col-sm-6 col-md-4">
     <div class="panel-footer" style="background: none;">
-        <img src="images/logo - Copia.png" alt="logo_pequeno" srcset="">
+        <img src="img/Logo.jpg" alt="logo_pequeno" width="13%">
      <br>
         <i><strong> A MELHOR CHURRASCARIA DA ZONA LESTE </strong></i>
         <address>

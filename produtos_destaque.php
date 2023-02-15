@@ -2,7 +2,7 @@
 include 'conn/connect.php';
 $lista = $conn -> query("select * from vw_tbprodutos where destaque_produto = 'Sim';");
 $row_destaque = $lista -> fetch_assoc();
-$num_linhas = $lista -> num_rows
+$num_linhas = $lista -> num_rows;
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +32,7 @@ $num_linhas = $lista -> num_rows
                     <div class="thumbnail">
                         <div class="caption text-right">
                             <a href="produto_detalhes.php?id_produto=<?php echo $row_destaque['imagem_produto'] ?>">
-                               <img src="img/alcatra_pedra.jpg ?php echo $row_destaque['imagem_produto'] ?>" class="img-responsive img-rounded">
+                             <img src="img/fraldinha.jpg ?php echo $row_destaque['imagem_produto'] ?>" class="img-responsive img-rounded">
                            </a>
                             <h3 class="text-danger">
                                 <strong><?php  echo $row_destaque['descri_produto']?></strong>

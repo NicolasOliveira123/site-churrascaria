@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -18,19 +18,17 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="img/cupim.jpg" style="width:100%;">
       </div>
-
       <div class="item">
         <img src="img/fraldinha.jpg" style="width:100%;">
       </div>
     
       <div class="item">
-        <img src="img/pexels-samer-daboul-1375901.jpg" style="width:100%;">
+        <img src="img/Picanha_alho.jpg" style="width:100%;">
       </div>
     </div>
 

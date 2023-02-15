@@ -30,8 +30,8 @@ $num_linhas = $lista -> num_rows;
             <?php do{?>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <a href="produto_detalhes.php?id_produto=<?php echo $row_produtos['imagem_produto'] ?>">
-                         <img src="img/costelona.jpg ?php echo $row_produtos['imagem_produto'] ?>" class="img-responsive img-rounded">
+                        <a href="produto_detalhes.php?id_produto=<?php echo $row_produtos['id_produto'] ?>">
+                         <img src="img/alcatra_pedra.jpg ?php echo $row_produtos['imagem_produto'] ?>" class="img-responsive img-rounded">
                         </a>
                         <div class="caption text-right">
                             <h3 class="text-danger">
@@ -47,7 +47,7 @@ $num_linhas = $lista -> num_rows;
                                 <button class="btn btn-default disabled" role="button" style="cursor: default;">
                                     <?php  echo "R$ ".number_format($row_produtos['valor_produto'],2,',','.'); ?>
                                 </button>
-                                <a href="produto_detalhes.php?id_produto=<?php echo $row_produtos['imagem_produto']; ?>">
+                                <a href="produto_detalhes.php?id_produto=<?php echo $row_produtos['id_produto']; ?>">
                                     <span class="hidden-xs">Saiba Mais...</span>
                                     <span class="hidden-xs glyphicon glyphicon-eye-open" aria-hidden="true"></span>
                                 </a>
@@ -59,28 +59,5 @@ $num_linhas = $lista -> num_rows;
         </div>
     <?php }?>
     <br>
-    <h2>Sobre Nós</h2>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<br>
 
 </body>
