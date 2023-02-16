@@ -106,9 +106,9 @@
         <div class="col-sm-12">
             <div class="panel-footer" style="background: none;">
                 <h6 class="text-danger text-center">
-                    Desenvolvido por Gabriel santiago&trade; 2023
+                    Desenvolvido por Nicolas Oliveira&trade; 2023
                     <br>
-                    <a href="www.gabrielleandrosantiago@gmail.com" target="_blank">gabrielleandrosantiago</a>
+                    <a href="www.gabrielleandrosantiago@gmail.com" target="_blank">nicolasoliveirareis</a>
                 </h6>
             </div>
         </div>

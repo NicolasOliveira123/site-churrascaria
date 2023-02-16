@@ -34,8 +34,7 @@
             <div class="collapse navbar-collapse" id="menupublico">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                     <li><a href="index.php#reserva"><button type="button" class="btn btn-danger">Faça Sua Reserva</button></a></li>
-                     
+                     <li><a href="reserva.php"><button type="button" class="btn btn-danger">Faça Sua Reserva</button></a></li>
                     </li>
                     <li>
                         <a href="index.php#destaques">DESTAQUES</a>
