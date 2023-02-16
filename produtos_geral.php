@@ -31,7 +31,7 @@ $num_linhas = $lista -> num_rows;
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <a href="produto_detalhes.php?id_produto=<?php echo $row_produtos['id_produto'] ?>">
-                         <img src="img/alcatra_pedra.jpg ?php echo $row_produtos['imagem_produto'] ?>" class="img-responsive img-rounded">
+                         <img src="img/<?php echo $row_produtos['imagem_produto'] ?>" class="img-responsive img-rounded" style="width:300px;  height: 200px;" >
                         </a>
                         <div class="caption text-right">
                             <h3 class="text-danger">
