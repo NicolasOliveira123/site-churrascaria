@@ -21,10 +21,10 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/cupim.jpg" style="width:100%;">
+        <img src="img/Picanha_sem.jpg" style="width:100%;">
       </div>
       <div class="item">
-        <img src="img/fraldinha.jpg" style="width:100%;">
+        <img src="img/strudel.jpg" style="width:100%;">
       </div>
     
       <div class="item">

@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php" class="navbar-brand"></a>
-                <img src="img/pexels-daniel-nettesheim-1162361.jpg" alt="Logotipo" width="10%">
+                <img src="img/Logo.jpg" alt="Logotipo" width="10%">
             </div>
             <!-- fecha agrupamento mobile  -->
             <!-- nav direita  -->

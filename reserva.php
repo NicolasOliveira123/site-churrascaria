@@ -8,13 +8,30 @@
     <link rel="stylesheet" href="css/estilo.css">
     <script src="https://kit.fontawesome.com/2495680ceb.js" crossorigin="anonymous"></script>
     <title>Àrea de reserva</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            float: left;
+        }
+        .child{
+            width: 40%;
+            height: 200px;
+            background-color: red;
+            border: 1px solid black;
+        }
+        .resser{
+            float: left;
+        }
+    </style>
 </head>
 <body>
     <header>
         <img src="img/fundo-churrasco.png" width="100%" height="50%">
     </header>
     <br>
-    <div class="text">
+    <div class="texto">
         <h3>Regras</h3>
         <sub>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque mollitia eligendi dolorum quia, eum explicabo ipsam ut est. Doloremque explicabo magni enim ut labore eos ipsum unde? Eum, velit quis! <br>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, cum dolorem quae repellat autem repellendus ad molestias iure quaerat dolores neque non doloribus quisquam possimus repudiandae eius aliquid beatae voluptatibus <br>
@@ -28,17 +45,12 @@
         <br>
         <br>
     </div>
-  <div class="agenda">
-    <h3>Reserve Já!</h3>
-    fefjojeofo Lorem ipsum dolor sit amet co
-  </div>
-   <div class="reserva">
-        <img src="img/imagem_reserva.jpg" width="20%">
-        <img src="img/imagem_reserva2.jpg" width="20%">
-    </div>
-    <div>
-        <img src="img/imagem_reserva2.jpg" width="20%">
-        <img src="img/imagem_reserva4.jpg" width="20%">
+    <div class="container">
+        <div class="child"><img src="img/imagem_reserva4.jpg" width="100%" height="200px"></div>
+        <div class="child"><img src="img/imagem_reserva3.jpg" width="100%" height="200px"></div>
+        <div class="child"><img src="img/imagem_reserva2.jpg" width="100%" height="200px"></div>
+        <div class="child"><img src="img/imagem_reserva.jpg" width="100%" height="200px"></div>
+        
     </div>
 </body>
 </html>
