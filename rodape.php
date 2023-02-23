@@ -78,7 +78,7 @@
                                 </span>
                                 
                             </span>
-                            <input type="text" name="email_contato" placeholder="digite seu nome" aria-describedby="basic-addon1" class="form-control" required>
+                            <input type="text" name="email_contato" placeholder="digite seu e-mail" aria-describedby="basic-addon1" class="form-control" required>
                         </span>
                     </p>
                     <p>
@@ -89,14 +89,14 @@
                                 </span>
                                 
                             </span>
-                            <textarea type="text" name="comentario_contato" cols="30" rows="5" placeholder="digite seu nome" aria-describedby="basic-addon1" class="form-control" required>
+                            <textarea type="text" name="comentario_contato" cols="30" rows="5" placeholder="digite um comentário" aria-describedby="basic-addon1" class="form-control" required>
                             </textarea>
                         </span>
                     </p>
                     <p>
                         <button class="btn btn-danger btn-block" aria-label="enviar" role="button">Enviar
-                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
-
+                         <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                          
                         </button>
                     </p>
                     </form>

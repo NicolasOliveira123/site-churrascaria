@@ -50,7 +50,14 @@
         <div class="child"><img src="img/imagem_reserva3.jpg" width="100%" height="200px"></div>
         <div class="child"><img src="img/imagem_reserva2.jpg" width="100%" height="200px"></div>
         <div class="child"><img src="img/imagem_reserva.jpg" width="100%" height="200px"></div>
-        
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">boot</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">boot</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">boot</a></li>
+        </ul>
     </div>
 </body>
 </html>
