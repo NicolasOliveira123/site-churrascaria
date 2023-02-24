@@ -1,22 +1,39 @@
-<?php 
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $mensagem = $_POST['msg'];
 $data_envio = date('d/m/y');
 $hora_envio = date('H:i:s');
 
-$arquivo = "
-   <html>
-       <p><b>Nome: </b>$nome</p>
-       <p><b>E-mail: </b>$email</p>
-       <p><b>Mensagem: </b>$mensagem</p>
-       <p>Este e-mail foi enviado em <b>$data_envio</b> ás <b>$hora_envio</b></p>
-   </html>
+require 'PHPMailer-master/get_oauth_token.php'
+
+$mail = new PHPMailer;
+$mail->isSMTP();
+
+//configurações do servidor de e-mail
+$mail->Host = "smtp.gmail.com";
+$mail->Port = "587";
+$mail->SMTPSecure = "tls";
+$mail->SMTPAuth = "true";
+$mail->Username = "zemarcelo26@gmail.com";
+$mail->Password = "";
+
+
+//configuração da mensagem
+$mail->setFrom($mail->Username,"Nicolas"); //Remetente
+$mail->addAddress('zemarcelo26@gmail.com'); //Destinário
+$mail->Subject = "Fale Conosco"; //assunto
+
+$conteudo_email = "
+Você recebeu uma mensagem de $nome ($email):
+<br><br>
+
+Mensagem:<br>
+$mensagem
 ";
-
-
-$destino = "zemarcelo26@gmail.com";
-$assunto = "e-mail pelo site";
 
 //variáveis obrigatório para garantir a exibição correta dos caracteres
 $headers = "MIME-Version: 1.0/n";
@@ -27,5 +44,6 @@ $headers = "From: $nome <$email>";
 mail($destino, $assunto, $arquivo, $headers);
 
 echo "<meta http-equiv='refresh' content='10;URL=../rodape_contato_envia.php'>";
+
 
 ?>

@@ -24,6 +24,9 @@
         .resser{
             float: left;
         }
+        .textreser{
+
+        }
     </style>
 </head>
 <body>
@@ -50,14 +53,29 @@
         <div class="child"><img src="img/imagem_reserva3.jpg" width="100%" height="200px"></div>
         <div class="child"><img src="img/imagem_reserva2.jpg" width="100%" height="200px"></div>
         <div class="child"><img src="img/imagem_reserva.jpg" width="100%" height="200px"></div>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">boot</a></li>
-            <li><a href="#">home</a></li>
-            <li><a href="#">boot</a></li>
-            <li><a href="#">home</a></li>
-            <li><a href="#">boot</a></li>
-        </ul>
     </div>
+    <h2 class="textreser">Reserve Já!</h2>
+    <div>
+        <label>Data</label>
+        <input type="date" name="data">
+    </div>
+    <br>
+    <div>
+        <label>Nome</label>
+        <input type="text" name="nome">
+    </div>
+    <br>
+    <div>
+        <label>CPF</label>
+        <input type="text" name="cpf">
+    </div>
+    <br>
+    <div>
+        <label>E-mail</label>
+        <input type="text" name="email">
+    </div>
+    <a href="">
+      <button class="btn btn-danger">Cadastrar</button>
+    </a>
 </body>
 </html>

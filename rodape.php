@@ -67,9 +67,9 @@
                                 </span>
 
                             </span>
-                            <input type="text" name="nome_contato" placeholder="digite seu nome" aria-describedby="basic-addon1" class="form-control" required>
-                        </span>
-                    </p>
+                             <input type="text" name="nome_contato" placeholder="digite seu nome" aria-describedby="basic-addon1" class="form-control" required>
+                            </span>
+                        </p>
                     <p>
                             <span class="input-group">
                             <span class="input-group-addon" id="basic-addon2">
@@ -96,7 +96,6 @@
                     <p>
                         <button class="btn btn-danger btn-block" aria-label="enviar" role="button">Enviar
                          <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
-                          
                         </button>
                     </p>
                     </form>
